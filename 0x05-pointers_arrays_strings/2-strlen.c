@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strlen - check the code for Holberton School students.
+ * _strlen - check the code.
  * @s: integer1
  * Return: Always 0.
  */
