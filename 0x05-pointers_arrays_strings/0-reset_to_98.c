@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * reset_to_98.
+ * reset_to_98 - check the code for ALX School students.
  * @n: integer
  * Return: Always 0.
  */
