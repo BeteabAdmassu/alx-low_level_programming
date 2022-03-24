@@ -6,18 +6,21 @@
  */
 char *leet(char *s)
 {
-int i;
-int j;
-char l[] = "ol_ea__t";
-for (i = 0; s[i] != '\0'; i++)
-{
-for (j = 0; l[j] != '\0'; j++)
-{
-if (s[i] == l[j] || s[i] == (l[j] - 32))
-{
-s[i] = j + '0';
-}
-}
-}
+	int i = 0;
+        int j = 0;
+        char *l = "aAeEoOlLtT";
+        char *n = "4433001177";
+
+        while (*(s + i) != '\0')
+        {
+                while (*(l + j) != '\0')
+                {
+                        if (*(s + i) == *(l + j))
+                                *(s + i)  = *(n + j);
+                        j++;
+                }
+                j = 0;
+                i++;
+        
 return (s);
 }
